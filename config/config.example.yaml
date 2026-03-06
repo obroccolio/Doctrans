@@ -1,0 +1,14 @@
+llm:
+  # OpenAI-compatible API 地址
+  base_url: "https://api.openai.com/v1"
+  # 可直接写在配置里，但会优先使用环境变量 LLM_API_KEY / OPENAI_API_KEY
+  api_key: ""
+  model: "gpt-4o-mini"
+
+translation:
+  source_lang: "en"
+  target_lang: "zh"
+
+output:
+  chinese_font: "PingFang SC"
+  suffix: "_translated"
